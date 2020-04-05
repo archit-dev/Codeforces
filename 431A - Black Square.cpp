@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
   
-int search(int arr[],int key/*,string s*/){
+int search(int arr[],int key){
 	switch(key){
 		case '1':return arr[0];
 		case '2': return arr[1];
